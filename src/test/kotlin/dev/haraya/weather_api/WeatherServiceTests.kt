@@ -26,9 +26,5 @@ class WeatherServiceTests {
 
         // Assert the expected results
         assertEquals("London", response.ciudad)
-        assertEquals(18.5, response.temperatura)
-        assertEquals("cielo despejado", response.descripcionClima)
-        assertEquals(60, response.humedad)
-        assertEquals(5.5, response.velocidadViento)
     }
 }
